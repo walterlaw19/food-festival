@@ -1,0 +1,33 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "pizza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walterlaw19/food-festival.git"
+  },
+  "keywords": [
+    "food"
+  ],
+  "author": "wg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walterlaw19/food-festival/issues"
+  },
+  "homepage": "https://github.com/walterlaw19/food-festival#readme",
+  "devDependencies": {
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
